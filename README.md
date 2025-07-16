@@ -9,7 +9,6 @@ forge create --private-key ${OWNER_PRIVATE_KEY} --broadcast src/LuLuCoin.sol:LuL
 forge compile
 
 3. 测试命令
-forge test 
 forge test --mt <合约中某个具体的测试方法> -vvvvv
 
 4. 测试覆盖率命令
