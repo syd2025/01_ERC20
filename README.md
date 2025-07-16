@@ -15,7 +15,7 @@ forge test --mt <合约中某个具体的测试方法> -vvvvv
 4. 测试覆盖率命令
 forge coverage
 
-5. 查看合约部署消耗的gas费用
+5. 查看合约部署消耗的gas费用,单位换算
 cast to-dec <gas>
 
 6. 给钱包铸造代币(需要与链进行交互，消耗gas费用)
